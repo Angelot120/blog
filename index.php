@@ -7,6 +7,8 @@
     <title>Blog</title>
 </head>
 <body>
-    
+    <h1>
+        Hello word!
+    </h1>
 </body>
 </html>
