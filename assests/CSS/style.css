@@ -14,6 +14,11 @@
     src: url("../fonts/Roboto-Thin.ttf");
 }
 
+@font-face {
+    font-family: roboto-black;
+    src: url("../fonts/Roboto-Black.ttf");
+}
+
 html, body{
     scroll-behavior: smooth;
     font-family: roboto-regular;
@@ -21,3 +26,6 @@ html, body{
     margin: 0;
 }
 
+.menu-bar .menu-active{
+    font-family: roboto-black;
+}
