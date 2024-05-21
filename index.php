@@ -10,5 +10,9 @@
     <?php 
         require_once('./includes/menu.php') 
     ?>
+
+    <h1>
+        Derniers articles
+    </h1>
 </body>
 </html>
