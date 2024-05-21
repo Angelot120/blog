@@ -8,7 +8,7 @@
     $user_id = $_COOKIE['id'];
 
     if (isset($title) && isset($short_description)) {
-        move_uploaded_file($_FILES['file']['tmp_name'], "../assets/db/files" . $file_name);
+        move_uploaded_file($_FILES['file']['tmp_name'], "../assets/db/files/" . $file_name);
         $req = $myPDO->query("INSERT INTO articles(title, short_description, long_description, file_name, user_id) VALUES ('$title', '$short_description', '$long_description', '$file_name', '$user_id');");
         $req->fetch();
         header("Location: /blog/index.php");

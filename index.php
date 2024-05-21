@@ -12,7 +12,7 @@
     ?>
 
     <h1>
-        Derniers articles
+        Derniers articles ...
     </h1>
 </body>
 </html>
